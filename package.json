@@ -1,6 +1,6 @@
 {
-  "name": "weather_cli",
-  "version": "1.0.0",
+  "name": "coma_weather_cli",
+  "version": "1.0.1",
   "description": "Show weather in terminal",
   "main": "weather.js",
   "bin": {

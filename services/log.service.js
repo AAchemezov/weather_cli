@@ -48,10 +48,10 @@ const printWeather = ({weather: [weather], main, name, wind}) => {
         dedent(`
         
         ${chalk.bgYellow('WEATHER')} Погода в городе ${name} ${getIcon(weather.icon.slice(0, -1))} ${chalk.bgGreen(` ${weather.description} `)} 
-        Температура:    ${chalk.bgWhite(` ${main.temp} ºC `)} (ощущается как ${main.feels_like}ºC)
-        Влажность:      ${chalk.bgWhite(` ${main.humidity} % `)}
-        Скорость ветра: ${chalk.bgWhite(` ${wind.speed} м/с `)}
-        Давление:       ${chalk.bgWhite(` ${main.pressure} `)}
+        Температура:    ${chalk.bgGreen(` ${main.temp} ºC `)} (ощущается как ${main.feels_like}ºC)
+        Влажность:      ${chalk.bgGreen(` ${main.humidity} % `)}
+        Скорость ветра: ${chalk.bgGreen(` ${wind.speed} м/с `)}
+        Давление:       ${chalk.bgGreen(` ${main.pressure} `)}
         
         `))
 }
