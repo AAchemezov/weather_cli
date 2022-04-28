@@ -24,7 +24,7 @@ const getIcon = (icon) => {
         case '01':
             return '☀️';
         case '02':
-            return '🌤️';
+            return '🌤️ ';
         case '03':
             return '☁️';
         case '04':
